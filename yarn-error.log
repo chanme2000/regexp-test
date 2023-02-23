@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\cezzane\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add axios
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\cezzane\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\cezzane\AppData\Local\Microsoft\WindowsApps;C:\Users\cezzane\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\cezzane\AppData\Local\GitHubDesktop\bin;C:\Users\cezzane\AppData\Roaming\npm;C:\Users\cezzane\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\react_test\javascript_test\node_modules\deasync\bin\win32-x64-node-18\deasync.node'
+
+npm manifest: 
+  {
+    "name": "javascript_test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev" : "parcel index.html",
+      "build" : "parcel build index.html"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "parcel-bundler": "^1.12.5"
+    },
+    "dependencies": {
+      "lodash": "^4.17.21"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
